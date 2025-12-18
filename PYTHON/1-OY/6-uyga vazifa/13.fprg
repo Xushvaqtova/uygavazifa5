@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="11"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-08 02:14:26 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMjoxMTozMyAiOzI2MTQ="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMjoxMTozNiAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA3OyIxMTowNToyMSAiOzMuZnByZzs1OTg0"/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMjoxNDoyNiAiOzI7MjcyOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="n"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <if expression="i % 2 == 0 and i % 5 == 0">
+                    <then>
+                        <output expression="i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="for 2"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-06 12:39:26 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjoyMDoxNSAiOzI2MTM="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjoyMDoyMCAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA0OyIwNzowMjoyMSAiO2ZvciAxLmZwcmc7NjMzMg=="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjozOToyNiAiOzI7MjczNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, i, b, s" type="Integer" array="False" size=""/>
+            <output expression="&quot;A son kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B son kiriting&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="s" expression="0"/>
+            <for variable="i" start="a" end="b" direction="dec" step="1">
+                <output expression="i" newline="True"/>
+                <assign variable="s" expression="s+1"/>
+            </for>
+            <output expression="s&amp;&quot; ta raqam bor&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

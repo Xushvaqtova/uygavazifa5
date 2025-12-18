@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-08 01:40:45 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0MDozNCAiOzI2MTY="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0MDozNyAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA3OyIxMTowNToyMSAiOzQuZnByZzs1OTg3"/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0MDo0NSAiOzE7MjcyNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;A son kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B son kiriting&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a &gt; 0 and b &gt; 0">
+                <then>
+                    <output expression="&quot;A va B 0dan katta &quot;&amp;a+b" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;0 dan kichik son bor&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

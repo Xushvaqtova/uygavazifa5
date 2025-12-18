@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-08 01:40:09 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA3OyIxMTowNToyMSAiOzI2MTM="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMToxODo1MSAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA3OyIxMTowNToyMSAiOzIuZnByZzs1OTg2"/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0MDowOSAiOzY7MjczMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;A son kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="i" expression="0"/>
+            <if expression="a &lt;= 1">
+                <then>
+                    <for variable="i" start="2" end="a" direction="inc" step="1">
+                        <if expression="a % i == 0">
+                            <then>
+                                <assign variable="i" expression="i + 1"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </for>
+                    <if expression="i == 0">
+                        <then>
+                            <output expression="&quot;Tub son&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Tub emas&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

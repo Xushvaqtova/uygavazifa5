@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-08 01:19:23 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA3OyIxMTowNToyMSAiOzI2MTM="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMToxODo1MSAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA3OyIxMTowNToyMSAiOzIuZnByZzs1OTg2"/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMToxOToyMyAiOzQ7MjczMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;Yoshingizni kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a &gt;= 0">
+                <then>
+                    <if expression="a % 2 == 0">
+                        <then>
+                            <output expression="&quot;Mos son&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Mos son emas&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;0 dan kichik son&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

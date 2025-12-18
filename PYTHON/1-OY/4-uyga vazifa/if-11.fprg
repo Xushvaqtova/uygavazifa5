@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="if-6"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-03 05:15:03 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwNDo0MzowNSAiOzI2MTU="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwNDo0MzowOSAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwMzo1OTowNCAiO2lmLTUgc2FsIHlvcW1hZGkuZnByZzs3Mzg3"/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwNToxNTowMyAiOzc7MjcyNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Real" array="False" size=""/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="c" expression="0"/>
+            <if expression="a == b">
+                <then>
+                    <output expression="0" newline="True"/>
+                    <output expression="&quot;A - &quot;&amp;a" newline="True"/>
+                    <output expression="&quot;B - &quot;&amp;b" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a &gt; b">
+                        <then>
+                            <assign variable="c" expression="c+a"/>
+                            <output expression="c" newline="True"/>
+                        </then>
+                        <else>
+                            <assign variable="c" expression="c+b"/>
+                            <output expression="c" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <call expression="main"/>
+        </body>
+    </function>
+</flowgorithm>

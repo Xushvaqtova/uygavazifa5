@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="for 5"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-06 03:10:25 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjo1Mjo1MSAiOzI2MTg="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjo1Mjo1NSAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjoyMDoxNSAiO2ZvciA0LmZwcmc7NjM0OQ=="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIwMjoyOTowNCAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwNDo0MzowNSAiO2lmLTExLmZwcmc7NjI4Nw=="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIwMzoxMDoyNSAiOzE1OzI3NzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="a &lt; b and b &lt; c">
+                <then>
+                    <output expression="a+b+c+2" newline="True"/>
+                    <output expression="a" newline="True"/>
+                    <output expression="b" newline="True"/>
+                    <output expression="c" newline="True"/>
+                </then>
+                <else>
+                    <if expression="c &lt; b and b &lt; a">
+                        <then>
+                            <output expression="a" newline="True"/>
+                            <output expression="b" newline="True"/>
+                            <output expression="c" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="a" newline="True"/>
+                            <output expression="b" newline="True"/>
+                            <output expression="c" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <call expression="main"/>
+        </body>
+    </function>
+</flowgorithm>

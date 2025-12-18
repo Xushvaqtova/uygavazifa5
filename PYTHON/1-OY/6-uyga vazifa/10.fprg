@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-08 02:10:49 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0MDozNCAiOzI2MTY="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0MDozNyAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA3OyIxMTowNToyMSAiOzQuZnByZzs1OTg3"/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0NzowMSAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0MDozNCAiOzUuZnByZzs1OTg5"/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMjoxMDo0OSAiOzY7MjczMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yosh" type="Integer" array="False" size=""/>
+            <declare name="ism, i" type="String" array="False" size=""/>
+            <output expression="&quot;Ismingizni kiriting. Ismingizni bosh harf bilan kiriting&quot;" newline="True"/>
+            <input variable="ism"/>
+            <output expression="&quot;Yoshingizni kiriting&quot;" newline="True"/>
+            <input variable="yosh"/>
+            <assign variable="i" expression="&quot;Ali&quot;"/>
+            <if expression="yosh &lt; 20 and ism == &quot;Ali&quot;">
+                <then>
+                    <output expression="&quot;Xush kelibsiz &quot;&amp;ism" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Yoshingiz katta yoki ismingiz hato &quot;&amp;ism" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5-vazifa"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-03 03:17:40 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwMjo0NTozNyAiOzI2MjA="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwMjo0NTo0MSAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAyOyIwNzoxNjozOSAiOzQtdmF6aWZhLmZwcmc7NjY4MA=="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwMzoxNzo0MCAiOzg7MjcyOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, e, d, g" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="a/100"/>
+            <assign variable="c" expression="a/10%10"/>
+            <assign variable="d" expression="a%10*100"/>
+            <assign variable="g" expression="c*10"/>
+            <assign variable="e" expression="b+g+d"/>
+            <output expression="e" newline="True"/>
+            <call expression="main"/>
+        </body>
+    </function>
+</flowgorithm>

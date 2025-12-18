@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="for 5"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-06 05:02:36 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjo1Mjo1MSAiOzI2MTg="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjo1Mjo1NSAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjoyMDoxNSAiO2ZvciA0LmZwcmc7NjM0OQ=="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIwMjoyOTowNCAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwNDo0MzowNSAiO2lmLTExLmZwcmc7NjI4Nw=="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIwNTowMjozNiAiOzI2OzI3ODE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="0"/>
+            <for variable="i" start="1" end="a" direction="inc" step="1">
+                <assign variable="b" expression="b + i"/>
+                <output expression="&quot; darajaning yigindisi - &quot;&amp;b" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

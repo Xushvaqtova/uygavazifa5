@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="if-6"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-03 04:53:19 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwNDo0MzowNSAiOzI2MTU="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwNDo0MzowOSAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwMzo1OTowNCAiO2lmLTUgc2FsIHlvcW1hZGkuZnByZzs3Mzg3"/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwNDo1MzoxOSAiOzM7MjczMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a&gt;b">
+                <then>
+                    <output expression="a&amp;&quot; - katta&quot;" newline="True"/>
+                    <output expression="b&amp;&quot; - kichik&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="b&amp;&quot; - katta&quot;" newline="True"/>
+                    <output expression="a&amp;&quot; - kichik&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

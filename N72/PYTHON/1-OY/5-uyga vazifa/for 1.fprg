@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="for 1"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-06 12:20:02 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA0OyIwNzowMjoyMSAiOzI2MTI="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjoyMDowMiAiOzE7MjcxNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, i, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;A son kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B son kiriting&quot;" newline="True"/>
+            <input variable="b"/>
+            <for variable="i" start="1" end="a" direction="inc" step="1">
+                <output expression="b" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

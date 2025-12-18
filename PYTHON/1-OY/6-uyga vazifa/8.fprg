@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-08 01:55:58 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0MDozNCAiOzI2MTY="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0MDozNyAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA3OyIxMTowNToyMSAiOzQuZnByZzs1OTg3"/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0NzowMSAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0MDozNCAiOzUuZnByZzs1OTg5"/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo1NTo1OCAiOzQ7MjczOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="parol" type="Integer" array="False" size=""/>
+            <declare name="login, l" type="String" array="False" size=""/>
+            <output expression="&quot;Login kiriting&quot;" newline="True"/>
+            <input variable="login"/>
+            <output expression="&quot;Parol kiriting&quot;" newline="True"/>
+            <input variable="parol"/>
+            <assign variable="l" expression="&quot;user&quot;"/>
+            <assign variable="parol" expression="0"/>
+            <if expression="login == l and parol  &lt; 10000000">
+                <then>
+                    <output expression="&quot;Xush kelibsiz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Biroz adashdingiz&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

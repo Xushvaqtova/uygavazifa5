@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="for 2"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-06 12:48:10 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjoyMDoxNSAiOzI2MTM="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjoyMDoyMCAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA0OyIwNzowMjoyMSAiO2ZvciAxLmZwcmc7NjMzMg=="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjo0ODoxMCAiOzM7MjcyOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, i, b, s" type="Integer" array="False" size=""/>
+            <output expression="&quot;Konfet narxini kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="i&amp;&quot; kg konfetning narxi &quot;&amp;i*a&amp;&quot; som turadi&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

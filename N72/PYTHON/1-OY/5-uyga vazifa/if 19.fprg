@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="for 5"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-06 03:36:16 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjo1Mjo1MSAiOzI2MTg="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjo1Mjo1NSAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjoyMDoxNSAiO2ZvciA0LmZwcmc7NjM0OQ=="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIwMjoyOTowNCAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwNDo0MzowNSAiO2lmLTExLmZwcmc7NjI4Nw=="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIwMzozNjoxNiAiOzIwOzI3Nzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="d"/>
+            <if expression="a == b and b == c and a != d and b != d and c != d">
+                <then>
+                    <output expression="&quot;A - &quot;&amp;a" newline="True"/>
+                    <output expression="&quot;B - &quot;&amp;b" newline="True"/>
+                    <output expression="&quot;C - &quot;&amp;c" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a == b and b == d and a != c and b != c and d != c">
+                        <then>
+                            <output expression="&quot;A - &quot;&amp;a" newline="True"/>
+                            <output expression="&quot;B - &quot;&amp;b" newline="True"/>
+                            <output expression="&quot;D - &quot;&amp;d" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="a == c and c == d and a != b and c != b and d != b">
+                                <then>
+                                    <output expression="&quot;A - &quot;&amp;a" newline="True"/>
+                                    <output expression="&quot;C - &quot;&amp;c" newline="True"/>
+                                    <output expression="&quot;D - &quot;&amp;d" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="b == c and c == d and b != a and c != a and d != a">
+                                        <then>
+                                            <output expression="&quot;C - &quot;&amp;c" newline="True"/>
+                                            <output expression="&quot;B - &quot;&amp;b" newline="True"/>
+                                            <output expression="&quot;D - &quot;&amp;d" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;raqamlar har xil&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <call expression="main"/>
+        </body>
+    </function>
+</flowgorithm>

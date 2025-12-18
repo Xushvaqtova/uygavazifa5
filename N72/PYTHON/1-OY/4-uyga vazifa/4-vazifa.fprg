@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="3-vazifa"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-03 02:45:17 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAyOyIwNzoxNjozOSAiOzI2MjQ="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwMjo0NToxNyAiOzI7MjcyNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Nechiga bolmoqchisiz&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="a" expression="a/b"/>
+            <output expression="a&amp;&quot; ta bor&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5-vazifa"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-03 02:49:40 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwMjo0NTozNyAiOzI2MjA="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwMjo0NTo0MSAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAyOyIwNzoxNjozOSAiOzQtdmF6aWZhLmZwcmc7NjY4MA=="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAzOyIwMjo0OTo0MCAiOzI7MjcyNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="c" expression="a/10"/>
+            <assign variable="d" expression="a%10"/>
+            <output expression="c&amp;&quot; ta onlik bor&quot;" newline="True"/>
+            <output expression="d&amp;&quot; ta birlik bor&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

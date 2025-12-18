@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2-masala"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-20 06:22:56 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTIwOyIwNjoxODoxMiAiOzI2MTY="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTIwOyIwNjoyMjo1NiAiOzE7MjcyNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;Yoshingizni kiriting &quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a &lt;= 0">
+                <then>
+                    <output expression="&quot;Notogri yosh&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a &lt;= 6">
+                        <then>
+                            <output expression="&quot;Bogchaga boradi&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="a &lt;= 17">
+                                <then>
+                                    <output expression="&quot;Maktab oquvchisi&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Katta yoshdagi inson&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

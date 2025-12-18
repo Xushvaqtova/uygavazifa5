@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="for 5"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-06 12:57:30 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjo1Mjo1MSAiOzI2MTg="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjo1Mjo1NSAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjoyMDoxNSAiO2ZvciA0LmZwcmc7NjM0OQ=="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA2OyIxMjo1NzozMCAiOzE7MjcyOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, s" type="Integer" array="False" size=""/>
+            <declare name="i" type="Real" array="False" size=""/>
+            <output expression="&quot;Konfet narxini kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <for variable="i" start="0.1" end="1" direction="inc" step="0.1">
+                <output expression="i&amp;&quot; grammi konfetning narxi &quot;&amp;i*a&amp;&quot; som turadi&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

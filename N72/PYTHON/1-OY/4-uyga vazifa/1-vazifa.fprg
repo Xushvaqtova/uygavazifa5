@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1-vazifa"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-02 07:10:50 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAxOyIwNjozMjo0MCAiOzI2MTI="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTAyOyIwNzoxMDo1MCAiOzE7MjcxOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Raqam kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="a/100"/>
+            <output expression="&quot;L= &quot;&amp;b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

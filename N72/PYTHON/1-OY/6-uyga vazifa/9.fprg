@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5"/>
+        <attribute name="authors" value="pro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-08 02:04:57 "/>
+        <attribute name="created" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0MDozNCAiOzI2MTY="/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0MDozNyAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA3OyIxMTowNToyMSAiOzQuZnByZzs1OTg3"/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0NzowMSAiOzE7cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMTo0MDozNCAiOzUuZnByZzs1OTg5"/>
+        <attribute name="edited" value="cHJvO0RFU0tUT1AtNEZMU09KRjsyMDI1LTA4LTA4OyIwMjowNDo1NyAiOzU7MjczNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="soat, daqiqa" type="Integer" array="False" size=""/>
+            <output expression="&quot;soat kiriting&quot;" newline="True"/>
+            <input variable="soat"/>
+            <output expression="&quot;Daqiqa kiriting&quot;" newline="True"/>
+            <input variable="daqiqa"/>
+            <if expression="soat &lt; 24 and daqiqa &lt; 60">
+                <then>
+                    <output expression="&quot;Togri vaqt&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Biroz adashdingiz&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
